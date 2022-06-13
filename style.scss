@@ -1,0 +1,460 @@
+@font-face {
+    font-family: "Poppins-ExtraLight";
+    src: url("../url/Poppins-ExtraLight.ttf");
+}
+
+body {
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        justify-content: end;
+        text-align: end;
+    }
+    .img-section {
+        background: url(images/fond.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    //mixin des bouton bleu avec ecris noir en bg
+    @mixin button01 {
+        .btn {
+            &-color {
+                color: $color-white !important;
+                background-color: $color-blue !important;
+            }
+            &:hover {
+                color: black !important;
+                border: 1px solid black !important;
+                background-color: rgba(0, 0, 0, 0) !important;
+            }
+        }
+    }
+    //mixin des bouton bleu avec ecris noir en bg
+    @mixin button02 {
+        .btn {
+            &-color {
+                color: $color-white !important;
+                background-color: $color-blue !important;
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0) !important;
+                }
+            }
+        }
+    }
+    @mixin alignbg-image {
+        width: 100%;
+        height: 38vh;
+        background-position: fixed !important;
+        background-size: cover;
+    }
+    @mixin active {
+        .active {
+            background: $color-blue !important;
+            border: 1px solid $color-blue !important;
+            color: white !important;
+        }
+    }
+    .anime-img {
+        animation-name: opacity;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        @keyframes opacity {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1
+            }
+        }
+    }
+    $color-blue: #4FA1C9;
+    $color-white: #FFFFFF;
+    $font-size: 3rem;
+    i {
+        font-size: 2.5rem;
+        color: $color-blue;
+    }
+    span {
+        color: $color-blue;
+    }
+    .font-size {
+        font-size: 0.9rem;
+    }
+    .btn {
+        &-color {
+            color: $color-white !important;
+            background-color: $color-blue !important;
+            &-white {
+                background-color: $color-white !important;
+            }
+            &:hover {
+                background-color: rgba(0, 0, 0, 0) !important;
+            }
+        }
+    }
+    .text-color {
+        color: $color-blue !important;
+    }
+    .bg-color {
+        background-color: $color-blue !important;
+    }
+    /*----------------PARTIE HEADER-----------------*/
+    .custom-header {
+        position: fixed;
+        z-index: 20;
+    }
+    header {
+        .text-bg-custom {
+            background: $color-blue !important;
+        }
+        .me-custom {
+            margin-right: auto !important;
+        }
+        ul {
+            li {
+                .active_link {
+                    color: $color-blue !important;
+                }
+                a {
+                    color: $color-white !important;
+                    &:hover {
+                        color: $color-blue !important;
+                    }
+                }
+            }
+        }
+    }
+    /*----------SECTION 01 -----------*/
+    .section01 {
+        div {
+            .carousel-caption {
+                top: 50%;
+            }
+            .custom-visibilite {
+                z-index: 10;
+            }
+            .col-3 {
+                img {
+                    border-radius: 0.2rem;
+                }
+                width: 22%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                text-align: justify;
+                div {
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            @include button02;
+            h1 {
+                font-size: $font-size;
+            }
+            .carousel {
+                margin-bottom: 3rem;
+                &-item {
+                    width: 100%;
+                    height: 100vh;
+                }
+                &-caption {
+                    bottom: 0;
+                }
+            }
+            div {
+                @include button02;
+                span {
+                    color: $color-blue !important;
+                }
+            }
+        }
+        .bg-custom {
+            background-color: rgba(0, 0, 0, 0.6) !important;
+        }
+        li {
+            list-style: none;
+        }
+        .p-custom {
+            font-size: 0.8rem;
+        }
+        .pb-5-custom {
+            height: 60vh;
+        }
+        .custom-image {
+            background: url(images/slide3.jpg) no-repeat;
+            @include alignbg-image;
+        }
+        .image-actu {
+            background: url(images/fond8.jpg) no-repeat;
+            @include alignbg-image;
+        }
+        .pt-5-custom {
+            padding-top: 5rem;
+        }
+    }
+    /*----------SECTION 02 -----------*/
+    .section02 {
+        div {
+            table {
+                font-size: 0.9rem;
+            }
+            div {
+                form {
+                    .btn:hover {
+                        color: black !important;
+                    }
+                }
+                div {
+                    .list-group {
+                        flex-direction: unset;
+                        display: "";
+                    }
+                    div {
+                        ul {
+                            li {
+                                list-style: none;
+                            }
+                            @include active;
+                            font-size: 0.7rem;
+                        }
+                        div {
+                            div {
+                                p {
+                                    font-size: 0.8rem;
+                                    color: $color-blue;
+                                }
+                                ul {
+                                    li {
+                                        font-size: 0.9rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .border-custom {
+                border-radius: 0.2rem;
+                div {
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+        .div-custom-p {
+            p {
+                font-size: 0.9rem;
+            }
+        }
+        .col-4 {
+            img {
+                border-radius: 0.2rem;
+            }
+            margin-left: 1rem;
+            margin-right: 1rem;
+            text-align: center;
+            div {
+                text-align: center;
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        .ms-custom {
+            padding-left: 1rem;
+            &-p {
+                padding-left: 1rem;
+            }
+        }
+        .del-later {
+            height: 100vh;
+        }
+        @include button01;
+    }
+    /*----------SECTION 03 -----------*/
+    .section03 {
+        div {
+            div {
+                .div {
+                    @include active;
+                    a {
+                        color: black;
+                        &:hover {
+                            color: $color-blue;
+                        }
+                    }
+                }
+                div {
+                    div {
+                        div {
+                            div {
+                                ul {
+                                    li {
+                                        font-size: 0.9rem;
+                                        padding-bottom: 0.3rem;
+                                        list-style-type: square;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .marketing-custom {
+            div {
+                p {
+                    font-size: 0.859rem;
+                }
+            }
+        }
+        @include button01;
+    }
+    /*----------SECTION 04 -----------*/
+    .section04 {
+        background: url(images/headway-5QgIuuBxKwM-unsplash.jpg) no-repeat;
+        width: 100%;
+        height: 700px;
+        background-position: fixed !important;
+        background-size: cover;
+        .btn {
+            &-color {
+                color: $color-white !important;
+                background-color: $color-blue !important;
+            }
+            &:hover {
+                color: $color-white !important;
+                border: 1px solid $color-white !important;
+                background-color: rgba(0, 0, 0, 0) !important;
+            }
+        }
+        .w-custom {
+            width: 30%;
+            margin: 0 auto;
+            background-color: $color-white;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+    }
+    /*----------SECTION 05 -----------*/
+    .section05 {
+        @include button01;
+        .ms-custom {
+            margin-left: 6rem;
+        }
+    }
+    /*----------FOOTER  -----------*/
+    footer {
+        div {
+            p {
+                font-size: 0.8rem;
+                text-align: justify;
+            }
+            a {
+                font-size: 0.9rem;
+                color: $color-blue;
+            }
+            li {
+                list-style-type: none;
+                padding-left: 1rem;
+            }
+            i {
+                font-size: 1.7rem;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .section01 {
+            div {
+                .align {
+                    text-align: center !important;
+                }
+                .carousel-caption {
+                    top: 50% !important;
+                    p {
+                        font-size: 0.8rem !important;
+                    }
+                }
+                .carousel {
+                    &-item {
+                        height: 50vh !important;
+                    }
+                }
+                div {
+                    h1 {
+                        font-size: 1rem!important;
+                    }
+                }
+            }
+        }
+        .section02 {
+            div {
+                div {
+                    div {
+                        div {
+                            div {
+                                p {
+                                    font-size: 0.9rem!important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section03 {
+            div {
+                div {
+                    padding-bottom: 0 !important;
+                    div {
+                        i {
+                            margin-top: 1rem !important;
+                        }
+                        .imgcustom {
+                            display: none;
+                        }
+                        div {
+                            .col-xs-12-img {
+                                width: 100% !important;
+                                padding-left: 10% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section04 {
+            .w-custom {
+                margin: 1rem 1rem 0.9rem 0.75rem!important;
+                width: 42%;
+            }
+            img {
+                width: 60%;
+            }
+            .urg {
+                padding-top: 1rem !important;
+                padding-bottom: 2.5rem;
+            }
+            height: 110vh;
+        }
+        footer {
+            div {
+                div {
+                    div {
+                        p {
+                            font-size: 1rem !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-----------------PARTIE SOLUTION ------------------------*/
+}

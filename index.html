@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="GoPaaS, développer rapidement des applications avec des interfaces intuitives, 100% personnalisables, innovantes et des règles de gestion métiers sur mesures.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>GoPaaS Plateforme Agile pour créer et gérer des applications métiers.</title>
+    <style>
+        body header {
+            -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+            -webkit-animation-name: slidein;
+            animation-name: slidein;
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+        }
+        
+        @-webkit-keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+            to {
+                margin-left: 08%;
+                width: 100%;
+            }
+        }
+        
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+            to {
+                margin-left: 08%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid bg-black custom-header">
+        <header class="container bg-black pb-3 pt-3 d-flex">
+            <a href="index.html" class="me-md-auto text-white me-custom mt-2"><img src="images/logoP.png" alt="Logo" width="100%"></a>
+            <nav class="navbar navbar-expand-lg">
+
+                <div class="container-fluid pe-0">
+                    <button class="navbar-toggler text-bg-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                         </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item"><a class="nav-link active_link" href="index.html">Accueil</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Solution.html">Solutions</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Actualites.html">Actualités</a></li>
+                            <li class="nav-item"><a class="nav-link" href="fonctionnalites.html">Fonctionnalités</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Service.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tarif.html">Tarifs</a></li>
+                            <button class="btn btn-color ms-5" type="button"><a href="Contact.html" class="text-decoration-none text-light">Contactez-Nous</a></button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <section class="section01">
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- <div class="text-center text-white carousel-caption custom-visibilite">
+                <h1 class="mt-lg-5 pt-lg-5 fw-bold">Plateforme pour votre transformation digitale</h1>
+                <h3 class=" mt-5 fw-normal">- Créez rapidement des <span><strong>applications métiers</strong></span> sur mesures -</h3>
+
+            </div> -->
+
+            <div class="carousel-inner">
+
+
+                <div class="carousel-item active">
+                    <img src="images/slide1.jpg" width="100%" height="100%" alt="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Plateforme digitale</h1>
+                            <p>- Créez rapidement des applications métiers sur mesures -</p>
+                            <p><a class="btn  btn-color" href="Service.html">Découvrir</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide3.jpg" width="100%" height="100%" alt="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Transition vers le digital</h1>
+                            <p>Transformer vos idées et fichiers Excel en applications métier performantes et évolutives.</p>
+                            <p><a class="btn  btn-color" href="Contact.html">Demander votre démo</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide2.jpg" width="100%" height="100%" alt="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Atelier génie logiciel(AGL).</h1>
+                            <p>créer et gérer vos applications métier selon les besoins de votre activité.</p>
+                            <p><a class="btn  btn-color" href="fonctionnalites.html">Parcourir la gallerie</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="section02 border-bottom border-dark pb-5 container">
+        <div class="text-center pt-5">
+            <h2 class="fw-bolder">L'univers <span>GoPaaS</span></h2>
+            <p>Gopaas est une plateforme agile pour gérer et créer rapidement des applications métiers sur mesure, fiables et évolutives. Hébergées dans le Cloud, les applications Powered by <strong>Gopaas</strong> offrent une souplesse remarquable.</p>
+            <h3 class="pt-5"><span class="fw-normal">Une platefome</span> <strong>SIMPLE</strong></h3>
+            <p class="pt-2">Gopaas permet à son utilisateur de générer des nouvelles fonctionnalités en quelques heures et sans utiliser une seule ligne de code.</p>
+        </div>
+        <div class=" mt-5 pt-2 row" id="icon-grid">
+            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
+                <div class="row ">
+                    <div class="col d-flex align-items-start">
+                        <i class="fa-solid fa-wand-magic-sparkles ps-1 fs-3 pt-2 "></i>
+                        <div class="ms-4">
+                            <h5 class="fw-normal">Créez</h5>
+                            <p class="font-size"> Agencez les formulaires, ajoutez des champs, tables et onglets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col d-flex">
+                        <i class="fa-solid fa-gears fs-3 pt-2 "></i>
+                        <div class="ms-4">
+                            <h5 class="fw-normal ">Automatisez</h5>
+                            <p class="font-size"> Publiez des règles de gestion en fonction de vos processus métier.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col d-flex ">
+                        <i class="fa-solid fa-people-group fs-3 pt-2 "></i>
+                        <div class="ms-4">
+                            <h5 class="fw-normal">Groupe & permission</h5>
+                            <p class="font-size"> Gérez les droits d'accès et les permissions de vos utilisateurs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col d-flex ">
+                        <i class="fa-solid fa-chart-simple ps-3 fs-3 pt-2 "></i>
+                        <div class="ms-4">
+                            <h5 class="fw-normal">Analysez</h5>
+                            <p class="font-size">Créez des reporting business</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="images/Indexdef.png" width="80%" alt="" class="" id="anim">
+            </div>
+        </div>
+    </section>
+    <section class="section03 mt-5 pb-5 container">
+        <div class="text-center mb-5 pb-5">
+            <h3 class="fw-light ">RAPID APPLICATION DEVELOPMENT <strong class="fw-bold">( RAD )</strong> PLATFORM</h3>
+            <div>
+                <img src="images/GPMACHINE2.png" width="45%" class="mt-3 anime-img" alt="">
+            </div>
+        </div>
+        <div class="container text-center mt-5 marketing mb-custom">
+            <div class="row ">
+                <div class="col-lg-4  pb-5">
+                    <i class="fa-solid fa-desktop "></i>
+                    <h5 class="fw-semibold mt-3 mb-3">Transformation Digitale</h5>
+                    <p class="fw-light w-75 m-auto">Gagner en productivité en fournissant à vos équipes un outil performant sur lequel transformer leurs besoins en application métier.</p>
+                </div>
+                <div class="col-lg-4  pb-3">
+                    <i class="fa-solid fa-bolt "></i>
+                    <h5 class="fw-semibold mt-3 mb-3">Simple et Rapide</h5>
+                    <p class="fw-light w-75 m-auto">Développer rapidement en quelques semaines des nouvelles fonctionnalités avec des interfaces intuitives et des workflows innovants.</p>
+                </div>
+                <div class="col-lg-4  pb-3">
+                    <i class="fa-solid fa-server "></i>
+                    <h5 class="fw-semibold mt-3 mb-3">Développement Agile</h5>
+                    <p class="fw-light w-75 m-auto">Mettre en production une solution flexible qui permettra aux gestionnaires d’être réactifs aux demandes d’évolution des utilisateurs.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" mt-5 pt-lg-5  pb-5 row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <img src="images/20200430-champ.png" width="100%" alt="">
+            </div>
+            <div class="  mt-5 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h2 class="fw-bold pb-3">DEMANDEZ VOTRE DEMO</h2>
+                <p>Contactez nos équipes pour assister à une <br> présentation de Gopaas.</p>
+                <a href="Contact.html"> <button class="btn  btn-color mt-3" type="button">Assister une démo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg></button></a>
+            </div>
+        </div>
+    </section class="temoignage">
+    <hr>
+    <div>
+
+
+        <h3 class="text-center mb-5">Ce que disent les gens</h3>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <img src="images/temoin01.png" width="8%" alt="..." class="mb-4">
+                    <p class="m-auto w-50"><i class="fa-solid fa-quote-left fs-4"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. <i class="fa-solid fa-quote-left fs-4"></i> </p>
+                    <h6 class="mt-4">Nom premon</h6>
+                    <p class="text-info mb-5 fw-bold">Position</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/temoin02.png" width="8%" alt="..." class="mb-4">
+                    <p class="m-auto w-50"> <i class="fa-solid fa-quote-left fs-4"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. <i class="fa-solid fa-quote-left fs-4"></i> </p>
+                    <h6 class="mt-4">Nom premon</h6>
+                    <p class="text-info mb-5 fw-bold">Position</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/temoin03.png" width="8%" alt="..." class="mb-4">
+                    <p class="m-auto w-50"><i class="fa-solid fa-quote-left fs-4"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. <i class="fa-solid fa-quote-left fs-4"></i></p>
+                    <h6 class="mt-4">Nom premon</h6>
+                    <p class="text-info mb-5 fw-bold">Position</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark rounded-3" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark rounded-3" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <section>
+
+    </section>
+    <section class="section04">
+        <div class="text-center container text-light">
+            <h3 class="text-light">Découvrez comment ils utilisent <strong><span>GoPaaS</span></strong> pour accélérer leur transformation digitale</h3>
+            <div class="album">
+                <div class="row  align-items-center text-dark">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w-custom mt-5 pt-3 pb-3">
+                        <div class="cadre">
+                            <img src="images/bnpcolor.png" width="45%" alt="">
+                            <div class="card-body fst-italic pt-3">
+                                <p class="fs-6 fw-bolder card-text border-bottom border-light"><strong>Gestion commerciale de l'énergie</strong></p>
+                                <p>Gestion, analyse et reporting sur l'état de la consommation énergétique des agences au niveau national</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w-custom mt-5">
+                        <div class="cadre">
+                            <img src="images/circetcolor.png" class="urg" width="40%" alt="">
+                            <div class="card-body fst-italic">
+                                <p class="fs-6 fw-bolder card-text border-bottom border-light "><strong>Intervention des pannes télécoms</strong></p>
+                                <p>Gestion, diffusion et traitement des demandes d'interventions sur le réseau FTTH du groupe SFR NUMERICABLE.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-dark">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w-custom mt-5 ">
+                        <div class="cadre ">
+                            <img src="images/altacolor.png " width="30%" class="pt-2 pb-3" alt=" ">
+                            <div class="card-body fst-italic ">
+                                <p class="fs-6 fw-bolder card-text border-bottom border-light "><strong>Gestion des Ressources Humaines</strong></p>
+                                <p>Gestion quotidienne des processus de recrutement & Onboarding, traitement des primes relatives aux salariés.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w-custom mt-5 ">
+                        <div class="cadre fst-italic">
+                            <img src="images/svcolor.png " class="pt-2" width="60% " alt=" ">
+                            <div class="card-body pt-3">
+                                <p class="fs-6 fw-bolder card-text border-bottom border-light "><strong>Gestion des Ressources Humaines</strong></p>
+                                <p>Réalisation des contrôles qualité depuis le terrain et génération des rapports d'intervention au format dynamique.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="Solution.html"> <button class="btn btn-color-white mt-5 pe-5 ps-5 fw-bold">EN SAVOIR PLUS</button></a>
+        </div>
+    </section>
+    <section class="section05 pt-5 pb-5">
+        <div class="container">
+            <h1 class="fw-light  text-center">MODERNE ET <strong class="fw-bold ">AGILE</strong> !</h1>
+            <div>
+                <p class="mt-3 text-center ">La plateforme vous garantit un déploiement évolutif et fonctionnel pour tous les menbres de votre entreprise.
+                </p>
+                <div class="row mt-5">
+                    <img src="images/Responsive.png " alt=" " class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="container mt-5 pt-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 " id="icon-grid ">
+                        <div class="ms-5">
+                            <div class="row ">
+                                <div class="col d-flex align-items-start ">
+                                    <i class="fa-solid fa-mobile-screen pe-2 pt-2 fs-3"></i>
+                                    <div class="ms-4">
+                                        <h5 class="fw-normal ">Responsive</h5>
+                                        <p class="font-size"> Disponible nativement sur smartphone et tablette.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2 ">
+                                <div class="col d-flex ">
+                                    <i class="fa-solid fa-sliders pt-2  fs-3"></i>
+                                    <div class="ms-4">
+                                        <h5 class="fw-normal ">Personnalisable</h5>
+                                        <p class="font-size">Modifiez les icônes et les styles de vos applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2 ">
+                                <div class="col d-flex ">
+                                    <i class="fa-solid fa-rss pe-2 pt-2  fs-3"></i>
+                                    <div class=" ms-4">
+                                        <h5 class="fw-normal ">Connectée</h5>
+                                        <p class="font-size">Interfacez facilement vous outils existants avec nos APIs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2 ">
+                                <div class="col d-flex ">
+                                    <i class="fa-solid fa-file-code pe-3 pt-2  fs-3"></i>
+                                    <div class=" ms-4 ms-custom ">
+                                        <h5 class="fw-normal ">Modulable</h5>
+                                        <p class="ms-custom-p font-size">Ajoutez vos JavaScript personnalisés pour plus de fonctionnalités.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="ms-custom pt-3">
+                    <a href="fonctionnalites.html"><button class="btn btn-color">En Savoir plus</button></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black text-light pb-1 ">
+        <div class="container-fluid pt-4 ">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p class="pt-2 ">GoPaaS est une plateforme de développement qui permet au client final de réussir confortablement sa transition vers le digital. Vous êtes libre de créer et gérer vos applications métier selon les besoins de votre activité. Transformer
+                        vos idées et fichiers Excel en applications métier performantes et évolutives.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <h5 class="mb-3 ps-5 ">Contactez-Nous</h5>
+                    <p class="ps-5 "><i class="fa-solid fa-location-dot fs-6 text-light "></i> : 7 RUE ALBERT EINSTEIN, 77420 CHAMPS S/MARNE, FRANCE</p>
+                    <p class="ps-5 "><i class="fa-solid fa-phone fs-6 text-light "></i> : Téléphone : 01 83 62 35 35</p>
+                    <p class="ps-5 "><i class="fa-solid fa-envelope fs-6 text-light "></i> : contact@nids.fr</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="row ">
+                        <div class="col-4">
+                            <h6 class=" ">La plateforme</h6>
+                            <div class="fw-light text-primary "><a href="fonctionnalites.html" class="text-decoration-none ">Découvrir les fonctionnalités</a><br>
+                                <a href=" " class="text-decoration-none ">voir la présentation vidéo</a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <h6>Les Solutions</h6>
+                            <div>
+                                <a href="CRM.html " class="text-decoration-none ">GoPaas CRM </a> <br>
+                                <a href=" " class="text-decoration-none "> GoPaas Fibre</a><br>
+                                <a href=" " class="text-decoration-none ">GoPaas CO</a> <br>
+                                <a href=" " class="text-decoration-none ">Contrôle règlementaire</a>
+                                <br><a href=" " class="text-decoration-none ">Les modules</a>
+                            </div>
+                        </div>
+                        <div class=" col-4">
+                            <h6>Les ressources</h6>
+                            <div> <a href=" " class="text-decoration-none ">Toutes les ressources</a> <br>
+                                <a href=" " class="text-decoration-none "> Centre d'aide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="d-flex align-items-start  ">
+                    <li class="pe-1 ps-1 "><a href="https://www.facebook.com/Gopaas.fr/ "><i class="text-light fa-brands fa-facebook-square "></i></a></li>
+                    <li class="pe-1 ps-1 "><a href="# "><i class="text-light fa-brands fa-instagram "></i></a></li>
+                    <li class="pe-1 ps-1 "><a href="https://www.youtube.com/channel/UCkyKonGm7K5emoxjoh-JHhQ "><i class="text-light fa-brands fa-youtube "></i></a></li>
+                    <li class="pe-1 ps-1 "><a href="https://www.linkedin.com/company/gopaas/ "><i class="text-light fa-brands fa-linkedin "></i></a></li>
+                </ul>
+            </div>
+            <div class="containe ">
+                <hr class="m-0">
+            </div>
+            <p class="text-center ">​Copyright © 2022 NiDS. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="Js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js " integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
