@@ -1,0 +1,38 @@
+        <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="text-center text-white carousel-caption custom-visibilite">
+                <h1 class="mt-lg-5 pt-lg-5 fw-bold">Plateforme pour votre transformation digitale</h1>
+                <h2 class=" mt-5 ">- Créez rapidement des <span><strong>applications métiers</strong></span> sur mesures -</h2>
+                <div class="w-100 mt-5">
+                    <button class="btn btn-color">Explorer</button>
+                </div>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>Titre</h2>
+                    <p>Paragraphes les reports dans les reports dans les.</p>
+
+                    <img src="images/slide1.jpg" width="100%" height="100%" alt="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide2.jpg" width="100%" height="100%" alt="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide3.jpg" width="100%" height="100%" alt="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div> -->

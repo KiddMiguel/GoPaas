@@ -34,6 +34,33 @@ body .img-section {
   width: 100%;
 }
 
+body .anime-img {
+  -webkit-animation-name: opacity;
+          animation-name: opacity;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body i {
   font-size: 2.5rem;
   color: #4FA1C9;
@@ -386,13 +413,19 @@ body footer div i {
     text-align: center !important;
   }
   body .section01 div .carousel-caption {
-    top: 30% !important;
+    top: 50% !important;
+  }
+  body .section01 div .carousel-caption p {
+    font-size: 0.8rem !important;
   }
   body .section01 div .carousel-item {
     height: 50vh !important;
   }
   body .section01 div div h1 {
     font-size: 1rem !important;
+  }
+  body .section02 div div div div div p {
+    font-size: 0.9rem !important;
   }
   body .section03 div div {
     padding-bottom: 0 !important;
